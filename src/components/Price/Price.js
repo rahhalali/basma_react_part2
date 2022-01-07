@@ -55,9 +55,9 @@ function Price() {
           <button className="signup">Sign Up</button>
         </div>
       </div>
-      <div className="price-contact">
+      {/* <div className="price-contact">
           Not sure what to choose? <Link to="/">Contact Us</Link>
-      </div>
+      </div> */}
     </div>
   );
 }
