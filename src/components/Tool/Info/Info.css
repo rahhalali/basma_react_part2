@@ -1,0 +1,78 @@
+.check {
+  width: 15px;
+  margin-right: 2%;
+}
+
+.tool-right ul {
+  width: 60%;
+}
+
+.tool-right ul li p {
+  color: #6c6c6c;
+  margin-left: 1rem;
+}
+
+.tool-right ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.tool-title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  width: 60%;
+  font-size: 40px;
+  color: #0c0a0a;
+}
+
+@media screen and (max-width: 960px) {
+  .tool-right ul {
+    width: 100%;
+  }
+  .tool-title {
+    font-size: 35px;
+    padding-left: 2rem;
+    width: 80%;
+  }
+  .tool-right ul li {
+    margin-bottom: 0rem;
+  }
+  .tool-right ul li p {
+    text-align: left;
+  }
+  .tool-right {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 740px) {
+  .tool-right ul {
+    width: 55vw;
+    padding: 0.5rem;
+  }
+  .tool-title {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+  .tool-right {
+    height: 10%;
+  }
+  .tool-right ul li p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tool-right ul li {
+    width: 100%;
+  }
+  .tool-title {
+    font-size: 20px;
+    width:100%;
+  }
+  .tool-right ul  {
+    width: 100%;
+  }
+}

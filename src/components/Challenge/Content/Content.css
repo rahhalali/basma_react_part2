@@ -1,0 +1,30 @@
+.box {
+  margin-bottom: 3rem;
+}
+
+.icon {
+  color: grey;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.full {
+  color: #242424;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.parag {
+  width: 65%;
+  margin: auto;
+  color: #5a5a5a;
+}
+
+@media screen and (max-width: 500px) {
+  .parag {
+    width: 53%;
+  }
+}

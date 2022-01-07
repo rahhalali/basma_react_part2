@@ -1,0 +1,167 @@
+.container_price {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f6f9fe;
+}
+
+.price_top {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.price-code {
+  color: #242424;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.price-line {
+  border: 1px solid #552ade;
+  width: 4%;
+  margin-top: 1.5rem;
+  margin: auto;
+}
+
+.price-bottom {
+  display: flex;
+  width: 55%;
+  justify-content: center;
+  margin: auto;
+}
+
+.price-list-details li {
+  color: #5a5a5a;
+  list-style: none;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e8eaed;
+}
+
+.price-list-details li:last-child {
+  border-bottom: 1px solid #e8eaed;
+}
+
+.price-list-details ul {
+  margin-bottom: 3rem;
+}
+
+.price-content {
+  color: #5a5a5a;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.price-card-icon {
+  text-align: center;
+}
+
+.price-card-icon img {
+  width: 30%;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.price {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #5f2de0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.price span {
+  font-size: 2rem;
+}
+
+.price-title {
+  color: #4e4e4e;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.signup {
+  background-color: #682ce2;
+  color: white;
+  position: absolute;
+  width: 30%;
+  height: 8%;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  bottom: -1rem;
+}
+
+.price-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.price-cards:nth-child(1) {
+  margin-right: 4rem;
+}
+
+.price-contact {
+  color: #34373c;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.price-contact a {
+  color: #34373c;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .price-bottom {
+    width: 100%;
+  }
+  .price-cards {
+    width: 35%;
+  }
+  .price-content {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .price-cards:nth-child(1) {
+    margin-right: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .price-code {
+    font-size: 1.5rem;
+  }
+  .price-content {
+    font-size: 1rem;
+  }
+  .price-bottom {
+    flex-direction: column;
+  }
+  .price-cards {
+    width: 70%;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+  }
+}

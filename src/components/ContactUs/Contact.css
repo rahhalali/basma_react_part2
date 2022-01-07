@@ -1,0 +1,198 @@
+.contact-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  color: #242424;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
+.container-contact {
+  background-color: #f6f9fe;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.contact-line {
+  border: 1px solid #552ade;
+  width: 4%;
+  margin-top: 1.5rem;
+  margin: auto;
+}
+
+.contact-content {
+  width: 40%;
+  text-align: center;
+  color: #5a5a5a;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contact-box-first {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-box-second {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-text {
+  width: 65%;
+  padding-bottom: 1rem;
+  margin: auto;
+  color: #645454;
+}
+
+.contact-icons {
+  border-radius: 3px;
+  background-color: #7c4fe0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.contact-box-second input {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 10px #b4b3b3;
+}
+
+textarea {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 10px #b4b3b3;
+}
+.contact-box-second button {
+  background-color: #7c4fe0;
+  width: 70%;
+  margin: auto;
+  padding: 0.7rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.contact-box ul {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box ul li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.contact-box ul li div:last-child {
+  color: #645454;
+  padding-left: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-text {
+    width: 70%;
+    margin-left: 7rem;
+  }
+  .contact-box ul li {
+    padding: 1rem;
+  }
+  .contact-box ul li div:last-child {
+    padding-left: 1rem;
+    font-size: 14px;
+  }
+  .contact-box-first {
+    width: 70%;
+  }
+  .contact-box-second {
+    width: 56%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .contact-box-first ul li {
+    width: 47vw;
+  }
+  .contact-box-second {
+    width: 55vw;
+    margin-right: 1rem;
+  }
+  .contact-text {
+    width: 45vw;
+    margin-left: 5.5rem;
+    padding-left: 0;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-title {
+    font-size: 1.5rem;
+  }
+  .contact-content {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .contact-box {
+    flex-direction: column;
+  }
+  .contact-box-second {
+    width: 100%;
+  }
+  .contact-box ul li div:last-child {
+    font-size: 15px;
+  }
+
+  .contact-box-first ul li {
+    width: 100%;
+  }
+
+  .contact-box-first ul {
+    width: 80%;
+  }
+
+  .contact-box-first {
+    width: 100%;
+    display: block;
+    justify-content: center;
+  }
+  .contact-text {
+    margin: auto;
+    width: 80%;
+  }
+}

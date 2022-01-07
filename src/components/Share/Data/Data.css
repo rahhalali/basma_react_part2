@@ -1,0 +1,89 @@
+.share-title {
+  font-weight: bold;
+  width: 70%;
+  margin-left: 2rem;
+  font-size: 20px;
+  color: #0c0a0a;
+  margin-bottom: 2rem;
+}
+
+.share-icons {
+  color: #8055e1;
+  border-radius: 4px;
+  border: 3px solid rgba(0 0 0 / 10%);
+  background: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.share-left ul li p {
+  color: #6c6c6c;
+  width: 70%;
+  text-align: center;
+}
+
+.share-left ul li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.share-left ul {
+  margin-left: 2rem;
+}
+
+.share-button {
+  background-color: #552ade;
+  cursor: pointer;
+  font-weight: bold;
+  width: 25%;
+  height: 9%;
+  border-radius: 6px;
+  border: 1px solid #552ade;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 2rem;
+  color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .share-title {
+    font-size: 15px;
+  }
+  .share-left ul {
+    margin-left: 0.5rem;
+  }
+  .share-left ul li {
+    margin-bottom: 0rem;
+  }
+  .share-left ul li p {
+    width: 90%;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .share-title {
+    font-size: 13px;
+  }
+  .share-left ul li p {
+    font-size: 12px;
+  }
+  .share-button {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .share-title {
+    font-size: 10px;
+    width:100%;
+    margin:auto;
+  }
+  .share-button {
+    padding:13px;
+  }
+}

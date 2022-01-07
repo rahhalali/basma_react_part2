@@ -1,0 +1,28 @@
+.container-icons {
+  display: flex;
+}
+
+.icon-tool {
+  color: #8055e1;
+  border-radius: 4px;
+  border: 3px solid rgba(0 0 0 / 10%);
+  background: white;
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .container-icons {
+    padding-left:2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-icons {
+    justify-content: center;
+  }
+}

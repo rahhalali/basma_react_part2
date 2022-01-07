@@ -1,0 +1,78 @@
+.container-device {
+  width: 100%;
+  background: linear-gradient(rgba(30, 28, 59, 0.7), rgba(26, 23, 75, 0.7)),
+    url("../../assets/download-bg.jpeg");
+  background-size: cover;
+  opacity: 1.5;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.device {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.device-title {
+  padding-top: 6rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2.8rem;
+  padding-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.device-desc {
+  color: white;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 1.5rem;
+}
+
+.device-image {
+  height: 5%;
+  text-align: center;
+}
+
+.device-image img {
+  padding: 1rem;
+  width: 15%;
+  height: 5rem;
+}
+
+.note {
+  color: white;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 740px) {
+  .device-title {
+    font-size: 2.5rem;
+  }
+  .device-desc {
+    width: 90%;
+  }
+  .device-image img {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .device-title {
+    font-size: 1.5rem;
+  }
+  .device-desc {
+    width: 100%;
+    font-size:0.8rem;
+  } 
+  .device-image img {
+    width: 30%;
+    height:15%;
+  }
+}

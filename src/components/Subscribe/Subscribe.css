@@ -1,0 +1,73 @@
+.container-subscribe {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background: url("../../assets/newsletter-background.png");
+  background-position: center;
+  background-size: 250%;
+}
+
+.subscribe-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.subscribe-desc {
+  color: #5a5a5a;
+  padding-bottom: 2rem;
+}
+
+.input {
+  border: 1px solid #d8cfcf;
+  padding: 3%;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #b4b3b3;
+}
+
+.input::placeholder {
+  text-align: center;
+}
+
+.subscribe {
+  margin-top: 2rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 23px;
+  color: white;
+  background: #7c4fe0;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .subscribe-title {
+    font-size: 2.8rem;
+    width: 100vw;
+  }
+  .container-subscribe {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .subscribe-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .subscribe-title {
+    font-size: 1.5rem;
+  }
+  .subscribe {
+    padding:10px;
+  }
+}
