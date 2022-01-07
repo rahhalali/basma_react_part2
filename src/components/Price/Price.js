@@ -3,7 +3,6 @@ import "./Price.css";
 import bicycle from "../../assets/bike.png";
 import "./Price.css";
 import bike from "../../assets/motorbike.png";
-import {Link} from 'react-router-dom'
 
 function Price() {
   return (
@@ -55,9 +54,9 @@ function Price() {
           <button className="signup">Sign Up</button>
         </div>
       </div>
-      {/* <div className="price-contact">
-          Not sure what to choose? <Link to="/">Contact Us</Link>
-      </div> */}
+      <div className="price-contact">
+          Not sure what to choose? <u>Contact Us</u>
+      </div>
     </div>
   );
 }
